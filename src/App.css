@@ -1,0 +1,118 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+/* ... CSS anterior ... */
+
+.search-tips {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.search-tips ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.search-tips li {
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.search-tips li:hover {
+  background-color: #d0d0d0;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.saint-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.image-container {
+  margin: 20px 0;
+}
+
+.image-container img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.saint-details {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.biography {
+  text-align: left;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.quote {
+  font-style: italic;
+  color: #666;
+}
+
+.feast-day {
+  color: #444;
+}
+
+.source {
+  font-size: 0.9em;
+  color: #666;
+  text-align: right;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #34495e;
+  margin-bottom: 15px;
+}
